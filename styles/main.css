@@ -3,10 +3,10 @@ html {
 }
 
 h1 {
-  color: #000000;
+  color: red;
 }
 
-section {
+contents {
   white-space: pre-wrap;
 }
 
