@@ -2,6 +2,10 @@ html {
   margin: 30px;  
 }
 
+content {
+  margin: 15px;
+}
+
 date {
   font-style: italic;
 }
