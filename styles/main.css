@@ -4,10 +4,10 @@ html {
 
 h1 {
   margin: 5px;
-  color: blue;
+  color: black;
   background-color: cyan;
+  border-color: white;
   border-top: dotted 2px;
-  border-color: white; 
   border-bottom: dotted 2px;
 }
 
