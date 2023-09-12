@@ -11,6 +11,13 @@ h1 {
   border-bottom: dotted 2px white;
 }
 
+h2 {
+  margin: 10px;
+  padding: 5px;
+  color: gray;
+  border-bottom: solid 3px black;
+}
+
 contents {
   white-space: pre-wrap;
 }
