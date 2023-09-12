@@ -4,12 +4,11 @@ html {
 
 h1 {
   margin: 5px;
-  padding: 5px;
-  color: black;
+  padding: 10px;
+  color: white;
   background-color: gray;
-  border-color: white;
-  border-top: dotted 2px;
-  border-bottom: dotted 2px;
+  border-top: dotted 2px white;
+  border-bottom: dotted 2px white;
 }
 
 contents {
