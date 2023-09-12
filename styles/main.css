@@ -4,6 +4,7 @@ html {
 
 h1 {
   color: blue;
+  border-top: dotted 2px;
 }
 
 contents {
