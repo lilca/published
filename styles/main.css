@@ -3,7 +3,9 @@ html {
 }
 
 h1 {
+  margin: 5px;
   color: blue;
+  background-color: cyan;
   border-top: dotted 2px;
   border-color: white; 
   border-bottom: dotted 2px;
