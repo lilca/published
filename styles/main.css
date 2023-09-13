@@ -11,6 +11,7 @@ content {
   margin: 10px;
   padding: 10px;
   background-color: silver;
+  line-height: 20px;
 }
 
 date {
