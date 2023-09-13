@@ -7,6 +7,11 @@ html {
   margin: 30px;  
 }
 
+contents {
+  margin: 10px;
+  padding: 10px;
+}
+
 content {
   margin: 10px;
   padding: 10px;
