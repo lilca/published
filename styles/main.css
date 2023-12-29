@@ -13,6 +13,7 @@ content {
 }
 
 note {
+  font-size: 50%;
   font-style: italic;
   font-weight: bold;
   color: red;
