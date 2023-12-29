@@ -18,6 +18,16 @@ p {
   text-indent : 1em;
 }
 
+li {
+  margin: 20px;
+  padding: 0px;
+  text-indent : 1em;
+}
+
+email {
+  font-style: bold;
+}
+
 date {
   font-style: italic;
 }
