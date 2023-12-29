@@ -12,6 +12,11 @@ content {
   padding: 10px;
 }
 
+note {
+  font-style: italic;
+  font-weight: bold;
+}
+
 p {
   margin: 20px;
   padding: 0px;
@@ -25,7 +30,7 @@ li {
 }
 
 email {
-  font-style: bold;
+  font-weight: bold;
 }
 
 date {
