@@ -31,6 +31,12 @@ li {
   text-indent : 1em;
 }
 
+ui {
+  margin: 20px;
+  padding: 0px;
+  text-indent : 1em;
+}
+
 email {
   font-weight: bold;
 }
