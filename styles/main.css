@@ -19,7 +19,6 @@ note {
   color: red;
 }
 
-/*
 p {
   margin: 20px;
   padding: 10px;
@@ -27,20 +26,20 @@ p {
 }
 
 ol {
-  margin: 5;
+  margin: 5px 20px;
   padding: 10px;
 }
 
 ul {
-  margin: 5px;
+  margin: 5px 20px;
   padding: 10px;
 }
 
 li {
-  margin: 5px;
+  margin: 5px 20px;
   padding: 10px;
 }
-*/
+
 email {
   font-weight: bold;
 }
