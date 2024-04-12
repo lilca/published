@@ -24,6 +24,7 @@ p {
   margin: 20px;
   padding: 10px;
   text-indent : 1em;
+  background-color: red;
 }
 
 ol {
@@ -36,7 +37,7 @@ ul {
   margin: 20px;
   padding: 10px;
   text-indent : 1em;
-  background-color: blue;
+  background-color: gray;
 }
 
 email {
