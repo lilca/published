@@ -28,14 +28,14 @@ p {
 }
 
 ol {
-  margin: 20px;
-  padding: 10px;
+  margin: 40px;
+  padding: 10px 5px;
   text-indent : 1em;
 }
 
 ul {
-  margin: 20px;
-  padding: 20px 10px;
+  margin: 40px;
+  padding: 10px 5px;
   text-indent : 1em;
   background-color: gray;
 }
