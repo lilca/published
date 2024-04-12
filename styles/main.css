@@ -27,15 +27,18 @@ p {
 }
 
 ol {
-  margin: 20px 40px;
-  padding: 10px 5px;
-  text-indent : 1em;
+  margin: 5;
+  padding: 10px;
 }
 
 ul {
-  margin: 20px;
-  padding: 10px 5px;
-  text-indent : 1em;
+  margin: 5px;
+  padding: 10px;
+}
+
+li {
+  margin: 5px;
+  padding: 10px;
 }
 
 email {
