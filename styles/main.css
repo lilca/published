@@ -19,7 +19,7 @@ note {
   color: red;
 }
 
-/*
+
 p {
   margin: 20px;
   padding: 10px;
@@ -36,8 +36,9 @@ ul {
   margin: 20px;
   padding: 10px;
   text-indent : 1em;
+  background-color: blue;
 }
-*/
+
 email {
   font-weight: bold;
 }
