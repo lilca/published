@@ -1,5 +1,5 @@
 :root {
-  --title-color: #8888ff;
+  --title-color: #4444ff;
   --primary-color: #88ccff;
   --accent-color: #e0f7ff;
   --glow-color: #cceeff;
@@ -23,7 +23,7 @@ h1 {
   border-radius: 16px;
   box-shadow: 0 0 12px var(--glow-color);
   letter-spacing: 0.05em;
-  text-shadow: 4px 4px #ffffff;
+  text-shadow: 2px 2px #ffffff;
 }
 
 h2 {
