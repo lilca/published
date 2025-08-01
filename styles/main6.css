@@ -1,4 +1,5 @@
 :root {
+  --title-color: #8888ff;
   --primary-color: #88ccff;
   --accent-color: #e0f7ff;
   --glow-color: #cceeff;
@@ -15,7 +16,7 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: normal;
-  color: var(--primary-color);
+  color: var(--title-color);
   background: radial-gradient(circle at top left, #d6f0ff, #f0faff);
   padding: 1rem;
   border: 3px dashed var(--accent-color);
