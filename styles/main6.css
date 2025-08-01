@@ -74,16 +74,16 @@ p.app_name {
 .app_name {
   display: flex;
   align-items: center;
+  font-size: 1.2rem; /* 基準となる文字サイズ */
   font-weight: bold;
-  font-size: 1.2em;
-  margin-bottom: 0.2em;
+  gap: 0.5em; /* アイコンと文字の間隔 */
+  margin-bottom: 0.3em;
 }
 
 .app_icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
-  vertical-align: middle;
+  width: 1.8em;  /* 1.5倍 × 1.2rem = 1.8em */
+  height: 1.8em;
+  flex-shrink: 0;
 }
 
 div {
