@@ -10,6 +10,10 @@
   --glow-color: #cceeff;
 }
 
+html {
+  font-size: 16px; /* 1rem = 16pxに固定 */
+}
+
 body {
   background: linear-gradient(135deg, #e6f7ff, #ccf2ff);
   color: #334466;
