@@ -1,6 +1,6 @@
 :root
 {
-  --primary-color: #3498db;
+  --primary-color: #0088ff;
 }
 
 body {
@@ -18,7 +18,7 @@ h1 {
   color: #00ccff;
   background-color: #001122;
   padding: 1rem;
-  border: 2px solid #00ccff;
+  border: 2px solid $primary-color;
   //text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -28,14 +28,14 @@ h2 {
   color: #99ccff;
   background-color: #111133;
   padding: 0.5rem 1rem;
-  border-left: 4px solid #00ccff;
+  border-left: 4px solid $primary-color;
   margin-top: 2rem;
 }
 
 a {
   color: #00ccff;
   text-decoration: none;
-  border-bottom: 2px dashed #00ccff;
+  border-bottom: 2px dashed $primary-color;
 }
 
 a:hover {
