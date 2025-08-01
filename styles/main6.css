@@ -73,6 +73,8 @@ p.app_name {
 */
 .app_name {
   display: flex;
+  color: #3399ff;
+  border-bottom: 2px dotted var(--primary-color);
   align-items: center;
   font-size: 1.2rem; /* 基準となる文字サイズ */
   font-weight: bold;
