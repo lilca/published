@@ -23,7 +23,7 @@ h1 {
   border-radius: 16px;
   box-shadow: 0 0 12px var(--glow-color);
   letter-spacing: 0.05em;
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 4px 4px #ffffff;
 }
 
 h2 {
