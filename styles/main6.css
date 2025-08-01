@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #88ccff;
+  --accent-color: #e0f7ff;
+  --glow-color: #cceeff;
+}
+
+body {
+  background: linear-gradient(135deg, #e6f7ff, #ccf2ff);
+  color: #334466;
+  font-family: 'Comic Neue', 'Zen Maru Gothic', cursive;
+  margin: 2rem;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: var(--primary-color);
+  background: radial-gradient(circle at top left, #d6f0ff, #f0faff);
+  padding: 1rem;
+  border: 3px dashed var(--accent-color);
+  border-radius: 16px;
+  box-shadow: 0 0 12px var(--glow-color);
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px #ffffff;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #6699cc;
+  background-color: #e6f0ff;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid var(--primary-color);
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: inset 0 0 6px #d6ebff;
+}
+
+a {
+  color: #3399ff;
+  text-decoration: none;
+  border-bottom: 2px dotted var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #d6f0ff;
+  color: #0077cc;
+  text-shadow: 0 0 5px #99ccff;
+}
+
+div {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(145deg, #f8fcff, #e0f4ff);
+  padding: 0.75rem;
+  border: 2px solid #cce0ff;
+  border-radius: 14px;
+  box-shadow: 2px 2px 8px var(--glow-color);
+  transition: transform 0.2s ease;
+}
+
+div:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 14px #cce0ff;
+}
