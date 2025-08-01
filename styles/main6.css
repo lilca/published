@@ -64,7 +64,7 @@ a:hover > div {
   box-shadow: 0 0 14px #cce0ff;
 }
 
-t.app_name {
+p.app_name {
   color: #3399ff;
   text-decoration: none;
   border-bottom: 2px dotted var(--primary-color);
