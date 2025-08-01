@@ -80,6 +80,7 @@ p.app_name {
   font-weight: bold;
   gap: 0.5em; /* アイコンと文字の間隔 */
   margin-bottom: 0.3em;
+  padding: 0.3em;
 }
 
 .app_icon {
