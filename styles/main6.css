@@ -44,18 +44,40 @@ h2 {
 }
 
 a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+/*
+a {
   color: #3399ff;
   text-decoration: none;
   border-bottom: 2px dotted var(--primary-color);
   transition: all 0.3s ease;
 }
+*/
+a > div {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(145deg, #f8fcff, #e0f4ff);
+  padding: 0.75rem;
+  border: 2px solid #cce0ff;
+  border-radius: 14px;
+  box-shadow: 2px 2px 8px var(--glow-color);
+  transition: transform 0.2s ease;
+}
 
+a:hover > div {
+  transform: scale(1.03);
+  box-shadow: 0 0 14px #cce0ff;
+}
+/*
 a:hover {
   background-color: #d6f0ff;
   color: #0077cc;
   text-shadow: 0 0 5px #99ccff;
 }
-
+*/
 div {
   font-size: 0.9rem;
   margin: 0.5rem 0;
