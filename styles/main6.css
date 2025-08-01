@@ -63,21 +63,29 @@ a:hover > div {
   transform: scale(1.03);
   box-shadow: 0 0 14px #cce0ff;
 }
-
+/*
 p.app_name {
   color: #3399ff;
   text-decoration: none;
   border-bottom: 2px dotted var(--primary-color);
   transition: all 0.3s ease;
 }
-
-/*
-a:hover {
-  background-color: #d6f0ff;
-  color: #0077cc;
-  text-shadow: 0 0 5px #99ccff;
-}
 */
+.app_name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+.app_icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 div {
   font-size: 0.9rem;
   margin: 0.5rem 0;
