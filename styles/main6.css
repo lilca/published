@@ -86,6 +86,12 @@ p.app_name {
   flex-shrink: 0;
 }
 
+.qrcode {
+  width: 6.0em;  /* 1.5倍 × 1.2rem = 1.8em */
+  height: 6.0em;
+  flex-shrink: 0;
+}
+
 div {
   font-size: 0.9rem;
   margin: 0.5rem 0;
