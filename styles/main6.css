@@ -20,7 +20,7 @@ body {
 
 h1 {
   font-family: 'Hikomi', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   color: var(--title-color);
   background: radial-gradient(circle at top left, #d6f0ff, #f0faff);
