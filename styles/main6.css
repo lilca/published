@@ -114,3 +114,32 @@ div:hover {
   transform: scale(1.03);
   box-shadow: 0 0 14px #cce0ff;
 }
+
+li {
+  list-style: none; /* デフォルトのマーカーを消す */
+  background: linear-gradient(145deg, #f8fcff, #e0f4ff);
+  border: 2px solid #cce0ff;
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem 0;
+  box-shadow: 2px 2px 6px var(--glow-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 0.95rem;
+  color: #446688;
+  position: relative;
+}
+
+li::before {
+  content: "🌟";
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+/*
+li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px var(--glow-color);
+}
+*/
