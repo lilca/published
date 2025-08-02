@@ -116,7 +116,7 @@ div:hover {
 }
 
 li {
-  /*list-style: none; /* デフォルトのマーカーを消す */
+  list-style: none; /* デフォルトのマーカーを消す */
   background: linear-gradient(145deg, #f8fcff, #e0f4ff);
   border: 2px solid #cce0ff;
   border-radius: 12px;
